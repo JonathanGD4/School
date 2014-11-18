@@ -6,6 +6,7 @@ ApplicationWindow {
     width: 640
     height: 480
     title: qsTr("Hello World")
+    color:"blue"
 
     menuBar: MenuBar {
         Menu {
@@ -23,6 +24,8 @@ ApplicationWindow {
 
     Text {
         text: qsTr("Hello World")
+        color: "yellow"
+        scale:2
         anchors.centerIn: parent
     }
 }
