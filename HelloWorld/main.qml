@@ -23,7 +23,7 @@ ApplicationWindow {
     }
 
     Text {
-        text: qsTr("Hello World")
+        text: qsTr("Jonathan Garcia")
         color: "yellow"
         scale:2
         anchors.centerIn: parent
